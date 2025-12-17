@@ -1,8 +1,8 @@
 {
 	"name": "tauri-plugin-liquid-glass-api",
 	"version": "0.1.0",
-	"author": "You",
-	"description": "",
+	"author": "waruhachi",
+	"description": "A Tauri plugin that brings macOS's Liquid Glass and new window chrome to your apps",
 	"type": "module",
 	"types": "./dist-js/index.d.ts",
 	"main": "./dist-js/index.cjs",
