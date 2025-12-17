@@ -8,6 +8,8 @@ pub enum Error {
     #[cfg(mobile)] #[error(transparent)] PluginInvoke(
         #[from] tauri::plugin::mobile::PluginInvokeError,
     ),
+    #[error("Window not found: {0}")] WindowNotFound(String),
+    #[error("Failed to get NSWindow")] NsWindowFailed,
 }
 
 impl Serialize for Error {
